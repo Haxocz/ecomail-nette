@@ -12,7 +12,7 @@
 		{
 			"name": "Petr Balvín",
 			"homepage": "https://www.haxo.cz"
-		},
+		}
 	],
 	"require": {
 		"php": "^7.4",
