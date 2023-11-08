@@ -1,5 +1,5 @@
 {
-	"name": "haltuf/ecomail-nette",
+	"name": "haxocz/ecomail-nette",
 	"type": "library",
 	"keywords": ["ecomail","api","nette"],
 	"description": "Independent Ecomail API wrapper for Nette",
@@ -8,10 +8,14 @@
 		{
 			"name": "Michal Haltuf",
 			"homepage": "http://www.michalhaltuf.cz"
-		}
+		},
+		{
+			"name": "Petr Balvín",
+			"homepage": "https://www.haxo.cz"
+		},
 	],
 	"require": {
-		"php": "^8.0",
+		"php": "^7.4",
 		"ext-curl": "*",
 		"nette/di": "^3.0"
 	},
