@@ -103,4 +103,9 @@ class Ecomail
 		
 		return $this->sendRequest($url, 'PUT', $post);
 	}
+
+    public function getTemplate(string $templateId){
+        $url = self::URL . 'template/' . $templateId;
+        return $this->sendRequest($url, 'GET');
+    }
 }
